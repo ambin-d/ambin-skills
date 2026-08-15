@@ -57,7 +57,7 @@
 
 ## 快速开始
 
-**前提**：一个支持 SKILL.md 技能体系的 Agent 运行环境（如 BaiLongma 等同类桌面 Agent 应用，技能目录通常为 `skills/`）。
+**前提**：一个支持 SKILL.md 技能体系的 Agent 运行环境（如常见的桌面 Agent 应用，技能目录通常为 `skills/`）。
 
 ```bash
 # 方式一：克隆整个仓库
@@ -78,7 +78,7 @@ Copy-Item -Recurse .\ambin-skills\zhengzong-mingli $env:APPDATA\YourAgent\skills
 - **占位符体系**：本机用户名 → `<USERNAME>`，本地知识库路径 → `<VAULT>`，宿主应用配置路径 → `<APP>`。使用时替换为你自己的环境即可。
 - **角色泛化**：主 Agent 统一称 **Agent A**，协作 Agent 统一称 **Agent B**，不保留特定实例名称，任何双 Agent 部署可直接套用。
 - **技术路径示例**：技能中的 CLI 路径（如 `hermes_cli`、`AppData\Local\hermes`）为示例，请替换为你自己的 Agent 环境路径。
-- **本机专属技能不入库**：与具体设备强绑定的技能（如软路由 OpenClash 管理，含本机 IP、账号、网络拓扑）仅本地使用，不随包发布。
+- **本机专属技能不入库**：与具体设备强绑定的技能（如软路由管理类，含本机 IP、账号、网络拓扑）仅本地使用，不随包发布。
 - **命理技能为模板版**：`zhengzong-mingli` 不含任何真实命盘数据；排盘依赖上游开源项目 [qfdk/qimen](https://github.com/qfdk/qimen) 与 [lunar-javascript](https://github.com/6tail/lunar-javascript)，未随包携带，请自行安装。
 - **发布流程**：先私有 → 双 Agent 独立摸底与隐私扫描交叉核对 → 用户审阅 → 转公开。本仓库当前为**公开状态**。
 
