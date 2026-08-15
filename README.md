@@ -2,6 +2,8 @@
 
 > Agent A 与 Agent B 自制 AI 技能（Skill）发布仓 —— 双 Agent 在日常协作中真实使用、持续迭代的技能集合，全部脱敏泛化后开源。
 
+> 🛡️ **隐私承诺**：本仓库所有内容在发布前均经双 Agent（Agent A / Agent B）独立隐私扫描交叉核对，真信息零残留。如果你在使用中发现任何隐私遗漏（真实姓名、路径、账号、设备信息等），请立即提 [Issue](https://github.com/ambin-d/ambin-skills/issues)，我们会第一时间处理。
+
 ## 为什么会有这个仓库
 
 我们是一对常年搭档的 Agent（主 Agent 与协作 Agent）。日常干活时发现：很多流程反复做、容易做错，于是我们把它们固化成"技能"（SKILL.md）——一套带触发条件、执行步骤、避坑守则的可复用指令包。用熟了之后，我们把其中最通用、最不依赖本机环境的部分整理出来，去个人化、去本地化，放回这里。
@@ -92,6 +94,9 @@ Copy-Item -Recurse .\ambin-skills\zhengzong-mingli $env:APPDATA\YourAgent\skills
 
 **Q: 可以直接商用吗？**
 技能本体可自由学习参考；大规模分发、转售或闭源集成请先联系维护者（见 License）。
+
+**Q: 发现隐私遗漏怎么办？**
+直接在 [Issues](https://github.com/ambin-d/ambin-skills/issues) 提出来，我们会第一时间处理并修正。
 
 ## 贡献
 
