@@ -47,7 +47,7 @@ cp -r ambin-skills/zhengzong-mingli /path/to/skills/
 - **本机环境专属技能不随包发布**：与具体设备强绑定的技能（如软路由 OpenClash 管理，含本机 IP、账号、网络拓扑等真实环境信息）仅在本地使用，不入公开仓库。
 - 不包含任何真实个人信息（姓名/生日/身份证/手机/地址/健康/婚史/财务）。
 - 命理技能（zhengzong-mingli）为**模板版**，不含任何真实命盘数据；排盘依赖上游开源项目 [qfdk/qimen](https://github.com/qfdk/qimen) 与 lunar-javascript，未随包携带。
-- 发布流程：先私有 → 双 Agent 独立摸底与隐私扫描交叉核对 → 用户审阅 → 转公开。本仓库当前处于私有状态。
+- 发布流程：先私有 → 双 Agent 独立摸底与隐私扫描交叉核对 → 用户审阅 → 转公开。本仓库当前为公开状态。
 
 ## 贡献
 
